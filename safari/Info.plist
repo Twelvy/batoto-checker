@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Aurélien Sérandour</string>
+	<key>Builder Version</key>
+	<string>6534.59.10</string>
+	<key>CFBundleDisplayName</key>
+	<string>Batoto-checker</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.aserandour.safari.batoto-checker</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>batotoNewTab</string>
+				<key>Identifier</key>
+				<string>batotoIcon</string>
+				<key>Image</key>
+				<string>toolbar.png</string>
+				<key>Label</key>
+				<string>Batoto</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+	</dict>
+	<key>Description</key>
+	<string>retrieves the latest updates from the mangas you follow on Batoto</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://aurelien.serandour.free.fr/batoto-checker/updates.plist</string>
+	<key>Website</key>
+	<string>http://aurelien.serandour.free.fr</string>
+</dict>
+</plist>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<real>300</real>
+		<key>Key</key>
+		<string>updates</string>
+		<key>Title</key>
+		<string>Update interval</string>
+		<key>Titles</key>
+		<array>
+			<string>5 minutes</string>
+			<string>10 minutes</string>
+			<string>15 minutes</string>
+			<string>20 minutes</string>
+			<string>30 minutes</string>
+			<string>45 minutes</string>
+			<string>1 hour</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<real>300</real>
+			<real>600</real>
+			<real>900</real>
+			<real>1200</real>
+			<real>1800</real>
+			<real>2700</real>
+			<real>3600</real>
+		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<true/>
+		<key>Key</key>
+		<string>englishCheck</string>
+		<key>Title</key>
+		<string>English</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>frenchCheck</string>
+		<key>Title</key>
+		<string>Français</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>spanishCheck</string>
+		<key>Title</key>
+		<string>Español</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>portugueseCheck</string>
+		<key>Title</key>
+		<string>Português</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>italianCheck</string>
+		<key>Title</key>
+		<string>Italiano</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>germanCheck</string>
+		<key>Title</key>
+		<string>Deutsch</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>russianCheck</string>
+		<key>Title</key>
+		<string>Русский</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>turkishCheck</string>
+		<key>Title</key>
+		<string>Türkçe</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>arabicCheck</string>
+		<key>Title</key>
+		<string>العربية</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+</array>
+</plist>
