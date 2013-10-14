@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Batoto Checker Options</title>
+	</head>
+	<body>
+		<div style="float:right;">
+			<div style="float:right;"><span>vers. 1.0 (October 2013)</span></div><br>
+			<div style="float:right;">by Aurélien Sérandour <a href="http://aurelien.serandour.free.fr">website</a></div>
+		</div>
+		<div style="float:left;">
+			<img src="icon-48.png"/>
+		</div>
+		<h1 style="padding-left: 50px;padding-top:7px;">Batoto checker options</h1>
+		<hr>
+		check time interval:
+		<select id="update_time">
+			<option value="300000">5 minutes</option>
+			<option value="600000">10 minutes</option>
+			<option value="900000">15 minutes</option>
+			<option value="1200000">20 minutes</option>
+			<option value="1800000">30 minutes</option>
+			<option value="2700000">45 minutes</option>
+			<option value="3600000">1 hour</option>
+		</select>
+		<br><br>
+		Languages to check:
+		<br><input type="checkbox" id="en" defaultChecked="true">English</input>
+		<br><input type="checkbox" id="fr">Français</input>
+		<br><input type="checkbox" id="es">Español</input>
+		<br><input type="checkbox" id="pt">Português</input>
+		<br><input type="checkbox" id="it">Italiano</input>
+		<br><input type="checkbox" id="de">Deutsch</input>
+		<br><input type="checkbox" id="ru">Русский</input>
+		<br><input type="checkbox" id="tr">Türkçe</input>
+		<br><input type="checkbox" id="ar">العربية</input>
+		<br><br>
+		<!--<br><br>
+		use desktop notifications:
+		<form name="notif">
+			<input type="radio" name="radioNotif" /> yes
+			<input type="radio" name="radioNotif" /> no
+		</form>-->
+		<br>
+		<button id="saveButton">Save</button>
+		<!--<button id="resetButton">Reset</button>-->
+		<hr>
+	</body>
+	<script src="options.js"></script>
+</html>
